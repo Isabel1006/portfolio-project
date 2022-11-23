@@ -1,8 +1,7 @@
 /*font-family: 'Permanent Marker', cursive;
 font-family: "Poppins", sans-serif; */
 :root {
-  --branding-color: #c8f1f1;
-  --main-color: #113f67;
+  --branding-color: #c9f1f1;
   --secundary-color: #2a6aa2;
   --font-color: #212121;
   --heading-font-family: "Playfair Display", serif;
@@ -22,6 +21,13 @@ body {
   margin: 0;
   color: var(--font-color);
 }
+.hero h2 {
+  font-family: var(--heading-font-family);
+  line-height: 2;
+  font-size: 32px;
+  font-weight: bold;
+}
+
 .btn-branding {
   background: var(--secundary-color);
   padding: 15px 30px;
@@ -30,15 +36,40 @@ body {
   text-decoration: none;
   border-radius: 4px;
 }
-h1 {
-  font-family: var(--heading-font-family);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--font-color);
-  font-size: 100px;
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
 h2 {
-  font-family: var(--default-font-family);
-  line-height: 2;
-  font: size 24px;
+  font-size: 64px;
   font-weight: normal;
+}
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+.intro {
+  font-size: 30px;
+}
+.img-fliud {
+  max-width: 500px;
+}
+.btn-branding-outline {
+  padding: 15px 30px;
+  color: var(--secundary-color);
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 4px;
+  border-color: var(--secundary-color);
 }
