@@ -1,9 +1,9 @@
 /*font-family: 'Permanent Marker', cursive;
 font-family: "Poppins", sans-serif; */
 :root {
-  --branding-color: #f7fdb6;
-  --main-color: #665c84;
-  --secundary-color: #71a0a5;
+  --branding-color: #c8f1f1;
+  --main-color: #113f67;
+  --secundary-color: #2a6aa2;
   --font-color: #212121;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -25,7 +25,7 @@ body {
 .btn-branding {
   background: var(--secundary-color);
   padding: 15px 30px;
-  color: var(--font-color);
+  color: var(--branding-color);
   font-size: 18px;
   text-decoration: none;
   border-radius: 4px;
