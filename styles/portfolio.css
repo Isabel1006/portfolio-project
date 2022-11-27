@@ -110,3 +110,28 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+.logo {
+  max-width: 120px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 10px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 100px;
+  margin-left: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--font-color);
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--secundary-color);
+}
