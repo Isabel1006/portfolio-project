@@ -54,9 +54,12 @@ h2 {
   font-size: 64px;
   font-weight: normal;
 }
+h3 {
+  font-size: 20px;
+}
 p {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 30px;
 }
 .intro {
@@ -75,7 +78,7 @@ p {
   border-color: var(--secundary-color);
 }
 .content-container {
-  padding: 120px 60px;
+  padding: 6px 60px;
 }
 .content {
   margin: 30px;
@@ -167,8 +170,5 @@ footer .contact-box p {
   .content-container {
     text-align: center;
     padding: 0;
-  }
-  h3 {
-    font-size: 18px;
   }
 }
