@@ -74,20 +74,21 @@ p {
   border-radius: 4px;
   border-color: var(--secundary-color);
 }
-.content-container h1 {
-  font-size: 64px;
-  line-height: 80px;
-}
-.content-container h2 {
-  font-size: 20px;
-  font-family: var(--default-font-family);
-}
 .content-container {
   padding: 120px 60px;
 }
 .content {
   margin: 30px;
 }
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.content h2 {
+  font-size: 20px;
+  font-family: var(--default-font-family);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
